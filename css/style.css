@@ -1,35 +1,57 @@
+
+/************** Global Styles **************/
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #2D2D2D;
+  font-size: 16px;
+  line-height: 1.5em;
 }
+
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#fff; } /*unvisited*/
+
+a:visited { color:#000; } /*visited*/
+
+a:hover { color:#EA4600; } /*mouseover*/
+
+figcaption {
+  font-size: .8em;
+}
+
+p {
+  font-size: 100%;
+  padding-top: 1em;
+}
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+/************** Navigation **************/
 
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
   position: fixed;
   width: 100%;
-}
-
-.logo {
-  margin: 20px;
-  width: 100px;
-}
-
-.large-pic {
-  width: 100%;
-}
-
-.medium-pic {
-  width: 70%;
-}
-
-.left, .right {
-  float: left;
-  width: 50%;
-}
-
-.right {
-  float: right;
 }
 
 ul {
@@ -42,11 +64,30 @@ li {
   padding: 30px;
 }
 
-article {
-  padding-top: 100px;
+.logo {
+  margin: 20px;
+  width: 100px;
 }
 
-.container {
-  margin: 0 auto;
+.left, .right {
+  float: left;
   width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+/************** Header **************/
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.author {
+  font-weight: 900;
 }
